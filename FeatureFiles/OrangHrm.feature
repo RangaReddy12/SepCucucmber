@@ -14,6 +14,7 @@ When user Enter "<Password>"in password field
 When user click on login button
 Then user verifies url
 Then user close browser
+Then verify brower close
 Examples:
 |Browser|UserName|Password|
 |chrome|Admin|Qedge123!@#|
