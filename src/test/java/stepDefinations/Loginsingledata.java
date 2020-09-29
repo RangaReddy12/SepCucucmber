@@ -48,5 +48,8 @@ public class Loginsingledata {
 	public void i_Close_Browser() throws Throwable {
 	    driver.close();
 	}
-
+	@Then("^i Close Browsers$")
+	public void i_Close_Browsers() throws Throwable {
+	    driver.close();
+	}
 }
